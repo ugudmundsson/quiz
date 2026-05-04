@@ -14,5 +14,5 @@ export const words = [
     swedish: "rädd",
     options: ["scared", "happy", "angry"],
     correct: "scared"
-  }
+  },
 ]

@@ -43,7 +43,7 @@ export function ResultCard({ score, total, results, onReset }: ResultCardProps) 
       </div>
 
       <button className="reset-btn" onClick={onReset}>
-        🔄 Starta om
+        Starta om
       </button>
     </div>
   );

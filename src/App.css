@@ -9,6 +9,9 @@
   padding: 1rem;
   border-radius: 25px;
   cursor: pointer;
+    font-size: 20px;
+  font-weight: 600;
+  margin-left: 5rem;
 }
 
 .btn-submit:hover  {
@@ -56,13 +59,13 @@ box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
   position: relative;
 }
 
-/* Hide native radio */
+
 .quiz-option input {
   opacity: 0;
   position: absolute;
 }
 
-/* Custom round checkmark */
+
 .checkmark {
   width: 22px;
   height: 22px;
@@ -72,7 +75,7 @@ box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
   transition: 0.2s;
 }
 
-/* When selected */
+
 .quiz-option input:checked + .checkmark {
   border-color: #e9e62a;
   background: radial-gradient(circle, #fcf82d 40%, transparent 41%);
